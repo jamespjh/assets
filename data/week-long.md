@@ -23,9 +23,12 @@ Content is:
   * XML / JSON (structured and well supported, but god forgive you if there is a stray '>')
   * HDF5 (best of many worlds)
   * Custom Binary (faster and smaller at the cost of flexibility and portability)
+  * XDR (Like custom binary, but with better portability)
+  * YAML (Similar to JSON, more flexible, clean syntax, good tools in many languages)
 * Exploring and learning from data (8 hr)
   * Basic regression analysis
   * classification
+  * Creating datafiles: native tools versus templating engines like Mako
   * Ranking
   * PCA
 * Databases (8 hr)
