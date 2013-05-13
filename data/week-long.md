@@ -20,11 +20,10 @@ Content is:
   * Misaligned discretizations (binning ticks, mixed units, ...)
 * Basic data formats and trade offs (7 hr)
   * CSV + gzip (human readable but redundancy and errors make it difficult to use)
-  * XML / JSON (structured and well supported, but god forgive you if there is a stray '>')
-  * HDF5 (best of many worlds)
+  * XML (structured and well supported, but god forgive you if there is a stray '>')
+  * JSON  (Also to mention: YAML)
+  * HDF5 (best of many worlds. Also to mention: XDR)
   * Custom Binary (faster and smaller at the cost of flexibility and portability)
-  * XDR (Like custom binary, but with better portability)
-  * YAML (Similar to JSON, more flexible, clean syntax, good tools in many languages)
 * Exploring and learning from data (8 hr)
   * Basic regression analysis
   * classification
